@@ -5,6 +5,8 @@
 	  <PackageId>AsyncAPI.NET</PackageId>
 	  <AssemblyName>LEGO.AsyncAPI</AssemblyName>
 	  <RootNamespace>LEGO.AsyncAPI</RootNamespace>
+	  <SignAssembly>True</SignAssembly>
+	  <DelaySign>True</DelaySign>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="stylecop.json" />
