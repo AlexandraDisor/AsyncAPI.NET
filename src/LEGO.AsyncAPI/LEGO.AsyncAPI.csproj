@@ -2,11 +2,13 @@
   <Import Project="../../Common.Build.props" />
   <PropertyGroup>
 	  <Description>AsyncAPI.NET models</Description>
-	  <PackageId>AsyncAPI.NET</PackageId>
+	  <PackageId>AsyncAPI.NET.Signed</PackageId>
 	  <AssemblyName>LEGO.AsyncAPI</AssemblyName>
 	  <RootNamespace>LEGO.AsyncAPI</RootNamespace>
 	  <SignAssembly>True</SignAssembly>
 	  <DelaySign>True</DelaySign>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Version>5.2.2</Version>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="stylecop.json" />
