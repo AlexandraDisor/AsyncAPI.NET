@@ -9,6 +9,7 @@
 	  <DelaySign>True</DelaySign>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	  <Version>5.2.2</Version>
+	  <NoWarn>$(NoWarn);NU1504;NU1505;NU1701</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <None Remove="stylecop.json" />
