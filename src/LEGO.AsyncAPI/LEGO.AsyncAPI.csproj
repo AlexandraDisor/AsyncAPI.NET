@@ -19,10 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
+    <!--<PackageReference Include="StyleCop.Analyzers" Version="1.2.0-beta.556">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-    </PackageReference>
+    </PackageReference>-->
     <PackageReference Include="System.Text.Json" Version="8.0.2" Condition="'$(TargetFramework)' == 'netstandard2.0'" />
 
 	  <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
