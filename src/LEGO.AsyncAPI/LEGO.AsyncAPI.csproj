@@ -30,9 +30,9 @@
 	  </AssemblyAttribute>
   </ItemGroup>
 
-  <ItemGroup>
+  <!--<ItemGroup>
     <InternalsVisibleTo Include="LEGO.AsyncAPI.Tests" />
-  </ItemGroup>
+  </ItemGroup>-->
 
   <ItemGroup>
     <Compile Update="Resource.Designer.cs">
